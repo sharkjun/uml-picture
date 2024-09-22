@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Loar5oMmu8-F9fvhk3Y--4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="230" y="370" width="780" height="780" as="geometry" />
+          <mxGeometry x="230" y="380" width="780" height="780" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--6" value="网上酒店预订系统&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="390" width="110" height="30" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="110" y="455" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--9" value="会员&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="710" width="30" height="60" as="geometry" />
+          <mxGeometry x="90" y="760" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--16" value="注册成员会员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="430" width="130" height="60" as="geometry" />
@@ -52,26 +52,81 @@
             <mxPoint x="750" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Loar5oMmu8-F9fvhk3Y--51" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="Loar5oMmu8-F9fvhk3Y--18">
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--51" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--9" target="Loar5oMmu8-F9fvhk3Y--18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="760" as="sourcePoint" />
             <mxPoint x="180" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--52" value="查询房间" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="380" y="610" width="140" height="70" as="geometry" />
+          <mxGeometry x="380" y="600" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--53" value="提交用户订单" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="380" y="700" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--54" value="支付用户订单" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="380" y="800" width="140" height="70" as="geometry" />
+          <mxGeometry x="350" y="790" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--55" value="管理用户订单" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="380" y="920" width="140" height="70" as="geometry" />
+          <mxGeometry x="360" y="920" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Loar5oMmu8-F9fvhk3Y--56" value="查询并管理登记记录" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1030" width="140" height="70" as="geometry" />
+          <mxGeometry x="370" y="1060" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--60" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--9" target="Loar5oMmu8-F9fvhk3Y--52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="750" as="sourcePoint" />
+            <mxPoint x="180" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--61" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0.644;exitY=0.622;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--9" target="Loar5oMmu8-F9fvhk3Y--54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="760" as="sourcePoint" />
+            <mxPoint x="180" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--62" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0.689;exitY=0.689;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--9" target="Loar5oMmu8-F9fvhk3Y--55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="760" as="sourcePoint" />
+            <mxPoint x="170" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--63" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0.556;exitY=0.722;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--9" target="Loar5oMmu8-F9fvhk3Y--56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="750" as="sourcePoint" />
+            <mxPoint x="180" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--71" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" target="Loar5oMmu8-F9fvhk3Y--53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="790" as="sourcePoint" />
+            <mxPoint x="150" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--72" value="房间折扣" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="680" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--73" value="预订成功" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="800" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--74" value="订单超时取消" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="940" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--75" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--53" target="Loar5oMmu8-F9fvhk3Y--72">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="640" as="sourcePoint" />
+            <mxPoint x="680" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="735" />
+              <mxPoint x="540" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Loar5oMmu8-F9fvhk3Y--76" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;" edge="1" parent="1" source="Loar5oMmu8-F9fvhk3Y--73" target="Loar5oMmu8-F9fvhk3Y--54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="810" as="sourcePoint" />
+            <mxPoint x="620" y="810" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
