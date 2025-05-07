@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
-  <diagram name="第 1 页" id="dNuWZmQpLppdtWvQ0lOV">
-    <mxGraphModel>
+  <diagram name="支付宝SOA架构" id="dNuWZmQpLppdtWvQ0lOV">
+    <mxGraphModel dx="1169" dy="1351" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-1" value="API网关" style="swimlane;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-2" value="支付服务" style="swimlane;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-3" value="账户服务" style="swimlane;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-4" value="用户服务" style="swimlane;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-5" value="风控服务" style="swimlane;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-6" value="营销服务" style="swimlane;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-7" value="服务注册中心" style="swimlane;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-8" style="endArrow=block;strokeWidth=2;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-1" target="8j1hBP-KkXO2CDxGltW1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-9" style="endArrow=block;strokeWidth=2;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-1" target="8j1hBP-KkXO2CDxGltW1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-10" style="endArrow=block;strokeWidth=2;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-1" target="8j1hBP-KkXO2CDxGltW1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-11" style="endArrow=block;strokeWidth=2;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-1" target="8j1hBP-KkXO2CDxGltW1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-12" style="endArrow=block;strokeWidth=2;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-1" target="8j1hBP-KkXO2CDxGltW1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-13" style="dashed=1;endArrow=open;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-2" target="8j1hBP-KkXO2CDxGltW1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-14" style="dashed=1;endArrow=open;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-3" target="8j1hBP-KkXO2CDxGltW1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-15" style="dashed=1;endArrow=open;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-4" target="8j1hBP-KkXO2CDxGltW1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-16" style="dashed=1;endArrow=open;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-5" target="8j1hBP-KkXO2CDxGltW1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8j1hBP-KkXO2CDxGltW1-17" style="dashed=1;endArrow=open;" edge="1" parent="1" source="8j1hBP-KkXO2CDxGltW1-6" target="8j1hBP-KkXO2CDxGltW1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
