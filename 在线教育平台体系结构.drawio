@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.3.0">
-  <diagram name="第 1 页" id="xsHZpZ6ClpsOokseEA-k">
-    <mxGraphModel>
+  <diagram name="Online Education UML Diagram" id="xsHZpZ6ClpsOokseEA-k">
+    <mxGraphModel dx="894" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-33" value="Frontend App (Web/App)" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-34" value="CDN (加速)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-35" value="API Gateway" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-36" value="User Service" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-37" value="Course Service" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-38" value="Video Service" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-39" value="Exam Service" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-40" value="Payment Service" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-41" value="Admin Service" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="750" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-42" value="Database (RDS)" style="ellipse;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-43" value="Cache (Redis)" style="ellipse;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-44" value="Object Storage (OSS)" style="ellipse;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-45" value="Alipay API" style="rounded=1;whiteSpace=wrap;fillColor=#fad7ac;" vertex="1" parent="1">
+          <mxGeometry x="610" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-46" value="WeChat Pay API" style="rounded=1;whiteSpace=wrap;fillColor=#fad7ac;" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-47" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-33" target="zpkDBBYntTiEOSS2pFcB-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-48" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-34" target="zpkDBBYntTiEOSS2pFcB-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-49" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-35" target="zpkDBBYntTiEOSS2pFcB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-50" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-35" target="zpkDBBYntTiEOSS2pFcB-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-51" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-35" target="zpkDBBYntTiEOSS2pFcB-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-52" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-35" target="zpkDBBYntTiEOSS2pFcB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-53" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-35" target="zpkDBBYntTiEOSS2pFcB-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-54" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-35" target="zpkDBBYntTiEOSS2pFcB-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-55" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-36" target="zpkDBBYntTiEOSS2pFcB-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-56" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-37" target="zpkDBBYntTiEOSS2pFcB-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-57" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-37" target="zpkDBBYntTiEOSS2pFcB-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-58" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-38" target="zpkDBBYntTiEOSS2pFcB-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-59" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-39" target="zpkDBBYntTiEOSS2pFcB-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-60" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-39" target="zpkDBBYntTiEOSS2pFcB-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-61" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-40" target="zpkDBBYntTiEOSS2pFcB-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-62" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-40" target="zpkDBBYntTiEOSS2pFcB-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkDBBYntTiEOSS2pFcB-63" edge="1" parent="1" source="zpkDBBYntTiEOSS2pFcB-36" target="zpkDBBYntTiEOSS2pFcB-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
