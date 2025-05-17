@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.2">
-  <diagram name="第 1 页" id="uV76MhiPPVAgiyVpTwgQ">
-    <mxGraphModel>
+  <diagram name="流程图" id="uV76MhiPPVAgiyVpTwgQ">
+    <mxGraphModel dx="761" dy="890" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-1" value="学生登录系统" style="shape=terminator;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-2" value="是否已绑定校园卡？" style="shape=rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-3" value="提示绑定校园卡" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-4" value="进入主界面" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-5" value="点击“发布代取”" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-6" value="输入时间、单号、地址等" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-7" value="信息合规？" style="shape=rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-8" value="提示失败" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-9" value="成功发布" style="shape=terminator;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-1" target="DaksFJsBLmpUEy1v9Wox-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-11" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-2" target="DaksFJsBLmpUEy1v9Wox-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-2" target="DaksFJsBLmpUEy1v9Wox-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-13" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-4" target="DaksFJsBLmpUEy1v9Wox-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-14" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-5" target="DaksFJsBLmpUEy1v9Wox-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-15" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-6" target="DaksFJsBLmpUEy1v9Wox-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-16" value="否" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-7" target="DaksFJsBLmpUEy1v9Wox-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaksFJsBLmpUEy1v9Wox-17" value="是" edge="1" parent="1" source="DaksFJsBLmpUEy1v9Wox-7" target="DaksFJsBLmpUEy1v9Wox-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
